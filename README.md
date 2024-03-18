@@ -1,1 +1,2 @@
-# Tucil2_13522105
+# Constructing Bézier Curve Using Divide and Conquer Midpoint Algorithm and Brute-Force Algorithm
+> Source Code ini dibuat untuk memenuhi Tugas Kecil 2 Mata kuliah Strategi Algoritma IF2211 yaitu "Membangun Kurva Bézier dengan Algoritma Titik Tengah berbasis Divide and Conquer".
