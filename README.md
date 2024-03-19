@@ -7,6 +7,7 @@ Program untuk memvisualisasikan Kurva Bézier dengan titik tengah berbasis Algor
 ## Requirements
 - Python3 
 - *Library* Matplotlib
+- *Library* time
 
 ## Cara Menjalankan Program
 1. Pastikan Python3 sudah terpasang di perangkat anda. Status pemasangan dapat diperiksa dengan menjalankan *command* `python3 --version` pada *command prompt*.
