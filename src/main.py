@@ -39,6 +39,8 @@ try :
 
     end_time = time.time()
     execution_time = end_time-start_time
+
+    # menampilkan execution time
     print("Waktu eksekusi program :", execution_time, "seconds")
 
     # menggambar kurva
