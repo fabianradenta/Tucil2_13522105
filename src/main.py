@@ -2,6 +2,7 @@ import bruteforce
 import dnc
 import utils
 import matplotlib.pyplot as plot
+import time
 
 utils.welcome()
 try : 
@@ -21,11 +22,16 @@ try :
     while tipe not in [1,2] :
         tipe = int(input("Tolong masukkan input yang valid\nMasukkan pilihan anda : "))
 
+    start_time = time.time()
     if (tipe==1) :
         hasil = dnc.divide_and_conquer(p1, p2, p3, iterasi)
         hasil.append(p3)
     else :
         hasil = bruteforce.main_function(p1, p2, p3, iterasi)
+
+    end_time = time.time()
+    execution_time = end_time-start_time
+    print("Waktu eksekusi program :", execution_time, "seconds")
 
     # DRAW CURVE
     x_points = [point.x for point in hasil]
