@@ -1,5 +1,4 @@
 from point import Point
-import matplotlib.pyplot as plot
 
 def mid_point(p1,p2) :
     mid_x = (p1.x + p2.x)/2

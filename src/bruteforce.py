@@ -1,5 +1,4 @@
 from point import Point
-import matplotlib.pyplot as plot 
 
 def bezier_curve_function(point1, point2, point3, t) :
     temp_x = ((1-t)**2)*point1.x + 2*(1-t)*t*point2.x + (t**2)*point3.x
