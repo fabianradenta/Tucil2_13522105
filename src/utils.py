@@ -39,16 +39,6 @@ Pilihan metode :
 2. Brute-Force
     """)
 
-def process_method_choice(choice):
-    try:
-        choice = int(choice)
-        if choice not in [1, 2]:
-            raise ValueError("Pilihan tidak valid. Harap masukkan 1 atau 2.")
-        return choice
-    except ValueError as e:
-        print("Error:", e)
-        return None
-
 def thanks() :
     print('\n'+23*'=')
     print(5*' '+"Terima kasih"+6*' ')
